@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Dalton @ the movies">
+  <rect width="64" height="64" rx="12" fill="#E4E8F6"/>
+  <rect x="10" y="28" width="44" height="26" rx="4" fill="#3C51A0"/>
+  <rect x="10" y="28" width="44" height="8" fill="#2A3973"/>
+  <g transform="rotate(-14 12 26)">
+    <rect x="12" y="14" width="44" height="11" rx="3" fill="#2A3973"/>
+    <path d="M20 14 L28 14 L22 25 L14 25 Z M36 14 L44 14 L38 25 L30 25 Z M52 14 L56 14 L56 25 L46 25 Z" fill="#FCD6CF"/>
+  </g>
+  <path d="M12 36 L19 28 M26 36 L33 28 M40 36 L47 28" stroke="#FCD6CF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M22 45 h20" stroke="#A7B1DE" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kennismaken met de montage · dia's · Dalton @ the movies</title>
+  <link rel="icon" href="assets/movies-icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/slides.css">
+  <style>
+    .klok { font-size: 22px; color: #4D5573; }
+    .compact .two { flex: 0 0 auto; }
+    .compact .panel p { margin-bottom: 10px; }
+    .compact .panel p:last-child { margin-bottom: 0; }
+    .steps2 { columns: 2; column-gap: 40px; margin: 0; }
+    .steps2 li { font-size: 25px; margin-bottom: 6px; break-inside: avoid; }
+    .steps1 { margin: 0; padding-left: 1.2em; }
+    .steps1 li { font-size: 27px; margin-bottom: 9px; }
+    .steps1 li:last-child { margin-bottom: 0; }
+    .qcol .opt { font-size: 26px; padding: 10px 18px; }
+    /* Een nagemaakt venster "Nieuw bericht" (dia 4 en 6) */
+    .venster { background: #fff; border: 2px solid #C4C7C5; border-radius: 14px 14px 8px 8px; overflow: hidden; font-family: Arial, sans-serif; color: #202124; box-shadow: 0 8px 24px rgba(29,35,64,.15); }
+    .venster .vk { background: #F2F6FC; font-weight: 700; font-size: 20px; padding: 8px 18px; }
+    .venster .vv { display: flex; gap: 16px; border-bottom: 1px solid #E3E3E3; padding: 7px 18px; font-size: 20px; }
+    .venster .vv span:first-child { color: #5F6368; width: 110px; flex-shrink: 0; }
+    .venster .vt { padding: 12px 18px 6px; font-size: 20px; }
+    .venster .vt p { font-size: 20px; margin: 0 0 12px; line-height: 1.35; }
+    .venster .lijn { display: block; height: 10px; border-radius: 5px; background: #E1E3EC; margin: 0 0 10px; }
+    .venster .vf { padding: 4px 18px 14px; }
+    .venster .verz { display: inline-block; background: #0B57D0; color: #fff; font-weight: 700; font-size: 18px; border-radius: 99px; padding: 5px 20px; }
+    .leeg { color: #A0372A; font-style: italic; }
+    /* dia 4: zes delen, met labels die één voor één verschijnen */
+    .delen { display: grid; grid-template-columns: 1fr 400px; gap: 30px; flex: 1; min-height: 0; align-items: start; }
+    .labels { list-style: none; padding: 0 !important; margin: 0; counter-reset: d; }
+    .labels li { counter-increment: d; font-size: 24px; line-height: 1.2; margin: 0 0 9px; display: flex; align-items: center; gap: 14px; }
+    .labels li::before { content: counter(d); width: 38px; height: 38px; flex-shrink: 0; border-radius: 50%; background: var(--navy); color: #fff; font-family: "Montserrat", Arial, sans-serif; font-weight: 900; font-size: 20px; display: grid; place-items: center; }
+    /* dia 5: twee tabbladen */
+    .tabbalk { display: flex; gap: 6px; background: #DEE1E6; border-radius: 14px 14px 0 0; padding: 10px 12px 0; font-family: Arial, sans-serif; }
+    .tabbalk span { background: #F1F3F4; border-radius: 10px 10px 0 0; padding: 10px 22px; font-size: 21px; color: #3C4043; }
+    .tabbalk span.aan { background: #fff; font-weight: 700; color: #202124; }
+    .tabonder { background: #fff; border: 2px solid #DEE1E6; border-top: 0; border-radius: 0 0 14px 14px; height: 40px; }
+    .uitleg3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 26px; }
+    .uitleg3 .panel { font-size: 24px; line-height: 1.35; }
+    .uitleg3 .panel b { display: block; font-family: "Montserrat", Arial, sans-serif; color: var(--navy-deep); font-size: 26px; margin-bottom: 6px; }
+    .rij1 { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin-top: 18px; }
+    .rij1 .panel { font-size: 24px; }
+    /* dia 6: twee kleine vensters naast elkaar */
+    .twee { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; align-items: start; }
+    .twee .venster .vv { font-size: 19px; padding: 6px 16px; }
+    .twee .venster .vv span:first-child { width: 96px; }
+    .twee .venster .vk { font-size: 19px; padding: 6px 16px; }
+    .twee .wie { font-family: "Montserrat", Arial, sans-serif; font-weight: 800; font-size: 24px; color: var(--navy-deep); margin: 0 0 6px; }
+    .vast5 { font-size: 26px; line-height: 1.5; }
+
+    .tlb { margin-top: 10px; }
+    .vakken4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 8px; }
+    .vakken4 .panel { font-size: 24px; line-height: 1.3; padding: 16px 18px; }
+    .vakken4 .panel b { display: block; font-family: "Montserrat", Arial, sans-serif; color: var(--navy-deep); font-size: 24px; margin-bottom: 4px; }
+    .vakken4 .panel.hier { background: var(--navy); border-color: var(--navy); color: #fff; }
+    .vakken4 .panel.hier b { color: #fff; }
+    .rol3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 8px; }
+    .rol3 .panel { font-size: 25px; line-height: 1.35; }
+    .rol3 .panel b { display: block; font-family: "Montserrat", Arial, sans-serif; color: var(--navy-deep); font-size: 28px; margin-bottom: 6px; }
+  </style>
+</head>
+<body>
+<div class="hud"><span id="counter"></span> · <kbd>→</kbd> verder · <kbd>F</kbd> volledig scherm · <kbd>N</kbd> notities</div>
+<div class="deck"><div class="stage">
+
+<!-- 1 · vaste startdia -->
+<section class="slide start">
+  <div class="start-kop">
+    <div>
+      <p class="kicker">Toegepaste Informatica · projectles 1</p>
+      <h1>Kennismaken met de montage</h1>
+    </div>
+    <span class="start-zo">Zo start je</span>
+  </div>
+  <ol class="startroute">
+    <li><div class="sr-beeld"><div class="pc-scherm"><span class="pc-avatar"></span><span class="pc-veld">••••••</span></div><div class="pc-voet"></div></div><span class="sr-tekst">Meld je aan op de computer.</span></li>
+    <li><div class="sr-beeld"><span class="url-balk"><img class="logo" src="assets/logos/classroom.svg" alt="">classroom.google.com</span><span class="url-knop">Inloggen</span></div><span class="sr-tekst">Ga in Chrome naar Classroom. Klik op <span class="knop">Inloggen</span>.</span></li>
+    <li><div class="sr-beeld"><span class="login-veld">…<b>@dalton.gent</b></span><span class="login-veld">••••••••</span></div><span class="sr-tekst">Log in met je schoolaccount.</span></li>
+    <li><div class="sr-beeld"><div class="lesgroep"><span class="lesgroep-kop">3MWWE - Informatica</span></div></div><span class="sr-tekst">Klik op je lesgroep.</span></li>
+    <li><div class="sr-beeld"><div class="tabs"><span class="tab-grijs"></span><span class="tab-aan">Schoolwerk</span><span class="tab-grijs"></span></div></div><span class="sr-tekst">Klik op <span class="knop">Schoolwerk</span>.</span></li>
+    <li><div class="sr-beeld"><span class="opdr-rij"><span class="opdr-ic"></span>Projectles 1 — Kennismaken met de montage</span><span class="opdr-link">Instructies bekijken</span></div><span class="sr-tekst">Klik op de opdracht › <span class="knop">Instructies bekijken</span>.</span></li>
+    <li><div class="sr-beeld"><span class="bijl-chip aan"><img class="logo" src="assets/logos/lespagina.webp" alt="">Lespagina · Projectles 1</span></div><span class="sr-tekst">Klik op de lespagina.</span></li>
+    <li class="klaar">Klaar? Laat de lespagina open en kijk naar het bord.</li>
+  </ol>
+  <template class="note">
+    <p><strong>Instructie, 0–2'. De vaste startdia</strong> (elke les dezelfde, voor alle klassen). Laat ze op het bord staan terwijl de leerlingen aanmelden.</p>
+    <p>Het <strong>wachtwoord van de computers</strong> staat niet op de dia: de dia's staan openbaar online. Zeg het, of schrijf het op het bord.</p>
+    <p>Ga verder als de meesten de lespagina open hebben. Wie vastzit bij stap 4 tot 6: wijs de tegel aan, en help daarna, niet ervoor.</p>
+  </template>
+</section>
+
+<!-- 2 -->
+<section class="slide met-mascotte" data-answer>
+  <img class="mascotte" src="assets/mascotte/dalton_denken.webp" alt="" width="240" height="240">
+  <p class="kicker">Lesstart · 2 minuten</p>
+  <h2>Weet je het nog?</h2>
+  <div class="qcol">
+    <p style="font-size:30px;font-weight:700;margin:0 0 8px">In les 2 deelde je je onderzoeksmap met je leraar als Kijker. Je groepsgenoten moeten mee monteren in jullie trailer. Welk recht krijgen ze?</p>
+    <div class="opts">
+      <div class="opt"><span class="n">A</span>Kan bekijken</div>
+      <div class="opt"><span class="n">B</span>Kan reageren</div>
+      <div class="opt right"><span class="n">C</span>Kan bewerken</div>
+    </div>
+  </div>
+  <p class="answer">Kan bewerken. Met Kan bekijken of Kan reageren kan je groepsgenoot niets monteren.</p>
+  <template class="note">
+    <p><strong>Lesstart (2'), ophalen uit les 2.</strong> Iedereen antwoordt tegelijk met vingers: 1, 2 of 3 vingers voor A, B of C. Druk daarna op → voor het antwoord.</p>
+    <p>Bouw de brug: <em>"In Canva heten de rechten een beetje anders dan in Drive, maar ze werken hetzelfde."</em></p>
+  </template>
+</section>
+
+<!-- 3 -->
+<section class="slide met-mascotte">
+  <img class="mascotte" src="assets/mascotte/dalton_wijzen_links.webp" alt="" width="240" height="240">
+  <p class="kicker">Ik doe · dia 1 van 4 · het project</p>
+  <h2>Dalton @ the movies</h2>
+  <ul class="rules">
+    <li><strong>Cubex</strong>: het verhaal, het storyboard en het filmen. <strong>Nederlands</strong>: synopsis en dialoog. <strong>Engels</strong>: voice-over en pitch.</li>
+    <li><strong>Informatica: de montage, in Canva.</strong> Vandaag zet je groep de clips in één ontwerp en leg je ze in de volgorde van het storyboard.</li>
+  </ul>
+  <p class="klok" style="margin-top:4px">Drie projectlessen: vandaag · do 29 oktober muziek, tekst en geluid · do 12 november afwerken en inleveren. Eindproduct: vr 13 november.</p>
+  <template class="note"><p><strong>Ik doe, 1'.</strong> Het lesdoel voorlezen, niet toelichten. Zeg wat de andere vakken doen: dat is niet de taak van deze les. Eindproduct vrijdag 13 november, getoond op het slotmoment.</p></template>
+</section>
+
+<!-- 4 -->
+<section class="slide">
+  <p class="kicker">Ik doe · dia 2 van 4 · de rollen</p>
+  <h2>Drie rollen in je groep</h2>
+  <div class="rol3">
+    <div class="panel reveal-item"><b>Monteur</b>Werkt op de tijdlijn: inkorten, splitsen, ordenen. Maakt ook het ontwerp.</div>
+    <div class="panel reveal-item"><b>Regisseur</b>Houdt het storyboard bij: de volgorde en de lengte van elk shot. Zegt wat weg moet.</div>
+    <div class="panel reveal-item"><b>Clipverzamelaar</b>Zorgt dat alle clips van alle gsm's in het ontwerp staan. Vraagt wie er in beeld staat.</div>
+  </div>
+  <p class="reveal-item" style="margin-top:30px;font-size:28px"><strong>Eén monteur tegelijk</strong> op de tijdlijn: anders schuiven de clips onder elkaars handen.</p>
+  <p class="klok" style="margin-top:6px">Met twee? De monteur neemt ook de clips. Met vier? Twee clipverzamelaars. In projectles 2 wisselen jullie.</p>
+  <template class="note"><p><strong>Ik doe, 30".</strong> Druk op → voor elke rol. De rollen komen in het werkdocument (deel 1). Zo heeft iedereen iets te doen terwijl één persoon op de tijdlijn werkt.</p></template>
+</section>
+
+<!-- 5 -->
+<section class="slide">
+  <p class="kicker">Ik doe · dia 3 van 4 · demo live in Canva</p>
+  <h2>De tijdlijn: drie handelingen</h2>
+  <div class="uitleg3">
+    <div class="panel reveal-item"><b>Inkorten</b>Sleep de rand van de clip. Het storyboard zegt: 2 seconden.</div>
+    <div class="panel reveal-item"><b>Splitsen</b>Afspeelkop op de plek, toets S. Het stuk weg: Delete.</div>
+    <div class="panel reveal-item"><b>Slepen</b>Een andere volgorde: sleep de clip naar links of rechts.</div>
+  </div>
+  <p class="klok" style="margin-top:26px;font-size:27px">Kijk naar de <strong>tijdlijn onderaan</strong> in Canva. Afspelen: de spatiebalk.</p>
+  <template class="note">
+    <p><strong>Ik doe, 2'30" — live in Canva, hardop denkend.</strong> Je eigen video-ontwerp met twee korte clips (stockvideo's of een eigen filmpje zonder herkenbare personen). Druk op → voor elk paneel, toon het dan in Canva.</p>
+    <ol>
+      <li><strong>Tijdlijn</strong>: wijs de afspeelkop en de hoofdtrack aan.</li>
+      <li><strong>Inkorten</strong>: clip aanklikken, de rand slepen. <em>"Het storyboard zegt: 2 seconden. Dus de rest gaat weg."</em></li>
+      <li><strong>Splitsen</strong>: afspeelkop op de plek, S. Het stuk selecteren, Delete.</li>
+      <li><strong>Slepen</strong>: een clip naar een andere plaats.</li>
+    </ol>
+    <p>Het ontwerp maken en delen (stap 2) en de clips van de gsm (stap 3) doe je niet voor: de lespagina doet dat stap voor stap. Dit is dezelfde voorbeeldrij als in deel 3 van het werkdocument: een clip ingekort, de camera wiebelde.</p>
+    <p>Knopnamen in Canva kunnen op jouw scherm anders heten dan op de lespagina: jouw scherm wint (zie de README).</p>
+  </template>
+</section>
+
+<!-- 6 -->
+<section class="slide">
+  <p class="kicker">Ik doe · dia 4 van 4 · kijk naar de afspeelkop en de randen van de gekozen clip</p>
+  <h2>De tijdlijn als tekening</h2>
+  <div class="tlb"><div class="liniaal"><span>0:00</span><span>0:02</span><span>0:04</span><span>0:06</span><span>0:08</span></div><div class="rij"><span class="naam">Hoofdtrack</span><div class="spoor"><span class="clip" style="--w:3">1</span><span class="clip gekozen" style="--w:4">2</span><span class="clip" style="--w:2">3</span><span class="kop" style="--x:42%"></span></div></div><div class="pills"><span class="pill" style="--x:25%">linkerrand</span><span class="pill" style="--x:42%">afspeelkop</span><span class="pill" style="--x:67%">rechterrand</span></div></div>
+  <div class="rij1" style="grid-template-columns:repeat(3,1fr)">
+    <div class="panel reveal-item"><strong>Inkorten</strong> = aan de <strong>rand</strong></div>
+    <div class="panel reveal-item"><strong>Splitsen</strong> = <strong>midden</strong> in de clip</div>
+    <div class="panel reveal-item"><strong>Slepen</strong> = een andere <strong>volgorde</strong></div>
+  </div>
+  <template class="note"><p><strong>Ik doe, 30".</strong> Een nieuwe tekening: lees ze de eerste keer hardop voor. <em>"Deze strook is de hoofdtrack: je clips na elkaar. De donkere lijn met het bolletje is de afspeelkop: daar ben je nu. De clip met de witte streepjes aan de rand is gekozen: aan die streepjes sleep je."</em> Druk op → voor elke handeling.</p></template>
+</section>
+
+<!-- 7 · controle -->
+<section class="slide" data-answer>
+  <p class="kicker">Controle · iedereen antwoordt</p>
+  <h2>Wat doe je?</h2>
+  <div class="qcol">
+    <p style="font-size:30px;font-weight:700;margin:0 0 8px">Midden in je clip loopt iemand door het beeld. Wat doe je?</p>
+    <div class="opts">
+      <div class="opt"><span class="n">A</span>Het einde van de clip inkorten</div>
+      <div class="opt right"><span class="n">B</span>Twee keer splitsen en het stuk ertussen verwijderen</div>
+      <div class="opt"><span class="n">C</span>De hele clip verwijderen</div>
+    </div>
+  </div>
+  <p class="answer">Twee keer splitsen. Inkorten werkt alleen aan de rand van een clip.</p>
+  <template class="note">
+    <p><strong>Controle (1'). Iedereen antwoordt tegelijk</strong>: 1, 2 of 3 vingers voor A, B of C. Kijk rond en onthoud wie A of C toont.</p>
+    <p>Wie A kiest: <em>"Zit het stuk aan de rand of in het midden?"</em> Wie C kiest: <em>"Is de rest van de clip dan slecht?"</em></p>
+    <p>Druk op → voor het antwoord. Wie fout had, komt zo meteen 3 tot 5 minuten bij je.</p>
+  </template>
+</section>
+
+<!-- 8 · samen stap 1 -->
+<section class="slide">
+  <p class="kicker">Samen · 4 minuten</p>
+  <h2>Iedereen doet stap 1</h2>
+  <div class="panel">
+    <ol class="steps1">
+      <li>Open de lespagina. Klik op <strong>Stap 1 · Klaarzetten</strong>.</li>
+      <li>Open <strong>Montagelogboek</strong>. Leg je storyboard naast je.</li>
+      <li>Verdeel de rollen en vul <strong>deel 1</strong> in.</li>
+      <li>Klaar? Steek je <strong>duim</strong> op.</li>
+    </ol>
+  </div>
+  <template class="note">
+    <p><strong>Samen (4').</strong> Iedereen doet stap 1 tegelijk, de groepen zitten samen. Loop rond: lespagina en Montagelogboek in twee tabbladen? Rollen verdeeld? Wie wordt de monteur?</p>
+    <p>Duim op bij de meesten: ga naar de volgende dia. Wie op de controlevraag fout had of hier vastloopt, blijft 3 tot 5 minuten bij je. De rest begint aan stap 2.</p>
+    <p>Zeg één zin over <em>Stap voor stap</em> / <em>Kort</em>: <em>"Weet je niet hoe het moet? Laat Stap voor stap aan. Kan je het al? Kies Kort."</em></p>
+    <p>Schrijf het e-mailadres van de leraar op het bord: ze hebben het nodig om het ontwerp te delen (stap 2). Nooit op een dia.</p>
+  </template>
+</section>
+
+<!-- 9 -->
+<section class="slide compact met-mascotte">
+  <img class="mascotte" src="assets/mascotte/dalton_laptop.webp" alt="" width="240" height="240">
+  <p class="kicker">Keuzewerktijd · <span class="eindtijd">40 minuten</span></p>
+  <h2>Zo werk je verder</h2>
+  <div class="two" style="grid-template-columns: 1.5fr 1fr; gap: 24px">
+    <div>
+      <ol class="steps1 kloklijst" data-lesmomenten="2026-10-22/14.35/15.25/3MWWE/8" data-beltijden="8.25-9.15 9.15-10.05 10.25-11.15 11.15-12.05 12.05-12.55 13.45-14.35 14.35-15.25 15.25-16.15 16.15-17.05">
+        <li data-min="4" data-samen>Klaarzetten <span class="klok tijd">samen &#10003;</span></li>
+        <li data-min="8">Het ontwerp van de groep <span class="klok tijd">8'</span></li>
+        <li data-min="8">Clips van je gsm <span class="klok tijd">8'</span></li>
+        <li data-min="14">Knippen en ordenen <span class="klok tijd">14'</span></li>
+        <li data-min="6">Nalezen en inleveren <span class="klok tijd">6'</span></li>
+      </ol>
+    </div>
+    <div class="panel navy">
+      <p style="font-size:25px"><strong>Vast?</strong></p>
+      <p class="vast5" style="font-size:25px">1. <em>Toon stapjes</em><br>2. Je groep<br>3. Ik</p>
+      <p style="margin-top:14px;font-size:22px">Vink af in de <strong>checklist</strong>.</p>
+    </div>
+  </div>
+  <p class="klok" style="margin-top:14px;font-size:23px">
+    <strong>Alles staat in de opdracht in <span class="met-logo"><img class="logo" src="assets/logos/classroom.svg" alt="">Google Classroom</span></strong> <em>Projectles 1 — Kennismaken met de montage</em>: de lespagina en rechts onder <em>Jouw werk</em> je werkdocument Montagelogboek. Je levert je <strong>werkdocument</strong> in.<br>Adres: jonasdaltongent.github.io/Montage-DaltonMovies/<!-- PAS AAN --></p>
+  <template class="note">
+    <p><strong>Keuzewerktijd, 40'.</strong> Laat deze dia staan zolang ze werken. <strong>De kloktijden</strong> komen uit de planning; te vroeg getoond, of geef je de les op een ander uur? Druk op <strong>T</strong>: dan rekent de dia vanaf nu tot de bel.</p>
+    <p><strong>Eerste rondgang (stap 2):</strong> werkt elke groep in <strong>één</strong> ontwerp, gedeeld met <strong>Kan bewerken</strong>? Kan elke leerling het ontwerp openen? Vraag: <em>"Wie is jullie monteur, en welk recht gaf hij?"</em></p>
+    <p><strong>Tweede rondgang (stap 3):</strong> staan de clips van de gsm in het ontwerp, niet alleen in <em>Uploads</em>? Vraag: <em>"Waar staan jullie clips nu: in Uploads of in het ontwerp?"</em> Geen clips of gsm: stockvideo's om te oefenen (tip in stap 3).</p>
+    <p><strong>Stap 4:</strong> <em>"Wat zegt het storyboard over dit shot? Inkorten of splitsen, en waarom?"</em> Eén monteur tegelijk op de tijdlijn.</p>
+    <p><strong>Inleveren pas na de zelftest</strong>: in stap 5 verschijnt het tweede blok (codewoord, inleveren) pas als de drie vragen juist zijn. Vraagt iemand hoe hij moet inleveren? <em>"Wat staat er onder de drie vragen in stap 5?"</em></p>
+    <p><strong>Vergeet niet</strong> het adres op deze dia aan te passen als de repository anders heet.</p>
+  </template>
+</section>
+
+<!-- 10 -->
+<section class="slide met-mascotte" data-answer>
+  <img class="mascotte" src="assets/mascotte/dalton_hulp.webp" alt="" width="240" height="240">
+  <p class="kicker">Afsluiten · laatste minuut</p>
+  <h2>Mag de trailer getoond worden?</h2>
+  <div class="qcol">
+    <p style="font-size:28px;font-weight:700;margin:0 0 6px">Lien filmde haar broer voor jullie trailer. Hij vond filmen goed. Mag de trailer op het slotmoment getoond worden?</p>
+    <div class="opts">
+      <div class="opt"><span class="n">A</span>Ja, hij gaf toestemming</div>
+      <div class="opt right"><span class="n">B</span>Pas als hij ook goed vindt dat ze getoond wordt</div>
+      <div class="opt"><span class="n">C</span>Nee, familie mag nooit in beeld</div>
+    </div>
+  </div>
+  <p class="answer">Toestemming om te filmen is nog geen toestemming om te tonen.</p>
+  <p style="margin-top:14px;font-size:24px">Volgende projectles, <strong>donderdag 29 oktober</strong>: muziek, tekst en geluid.</p>
+  <template class="note">
+    <p><strong>Afsluiting, laatste minuut van de keuzewerktijd.</strong> Twee of drie leerlingen antwoorden; druk dan op → voor het antwoord. Wie A kiest, denkt dat toestemming om te filmen genoeg is. Dezelfde vraag staat in deel 4b van het werkdocument.</p>
+    <p>Zeg mondeling dat wie niet klaar is, toch inlevert.</p>
+  </template>
+</section>
+
+</div></div>
+<div class="notes" id="notes"></div>
+<script src="js/slides.js"></script>
+</body>
+</html>

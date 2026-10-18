@@ -1,0 +1,23 @@
+{
+  "_uitleg": "Wordt gelezen door _tools/zet_opdracht_klaar.py (zie _tools/CLASSROOM-KOPPELING.md). Dit bestand staat openbaar op GitHub: zet hier nooit een e-mailadres of wachtwoord in. {deadline} vult het script zelf in; de deadline komt uit lesdoelen.json.",
+  "titel": "Projectles 1 — Kennismaken met de montage",
+  "onderwerp": "Project Dalton @ the movies",
+  "punten": 20,
+  "instructie": [
+    "1. Open de lespagina (link) en je werkdocument Montagelogboek.",
+    "2. Je hebt je gsm nodig, met de Canva-app (aangemeld met je schoolaccount), en het storyboard van je groep.",
+    "3. Het e-mailadres van je leraar staat op het bord: je deelt je ontwerp ermee.",
+    "4. Klik op Inleveren, ten laatste {deadline}."
+  ],
+  "bijlagen": [
+    {
+      "soort": "link",
+      "url": "https://jonasdaltongent.github.io/Montage-DaltonMovies/"
+    },
+    {
+      "soort": "kopie",
+      "bestand": "werkdocument/Montagelogboek.docx",
+      "naam": "Montagelogboek"
+    }
+  ]
+}

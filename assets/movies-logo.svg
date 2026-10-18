@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 64" role="img" aria-label="Dalton @ the movies">
+  <title>Dalton @ the movies</title>
+  <!-- eigen werk: een filmklapper (bord met schuine strepen, klepje open) -->
+  <g>
+    <rect x="8" y="26" width="46" height="30" rx="4" fill="#3C51A0"/>
+    <rect x="8" y="26" width="46" height="9" fill="#2A3973"/>
+    <g transform="rotate(-14 10 24)">
+      <rect x="10" y="12" width="46" height="11" rx="3" fill="#2A3973"/>
+      <path d="M18 12 L26 12 L20 23 L12 23 Z M34 12 L42 12 L36 23 L28 23 Z M50 12 L56 12 L56 23 L44 23 Z" fill="#FCD6CF"/>
+    </g>
+    <path d="M10 35 L18 26 M24 35 L32 26 M38 35 L46 26 M52 35 L54 33" stroke="#FCD6CF" stroke-width="4" stroke-linecap="round"/>
+    <path d="M22 44 h20 M22 50 h13" stroke="#A7B1DE" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="66" y="31" font-family="Montserrat, Arial, sans-serif" font-weight="900" font-size="21" fill="#2A3973">Dalton @ the movies</text>
+  <text x="67" y="49" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="1.1" fill="#4D5573">PROJECT TRAILER</text>
+</svg>
