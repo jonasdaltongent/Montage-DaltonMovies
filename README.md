@@ -67,11 +67,11 @@ Repository [`jonasdaltongent/Montage-DaltonMovies`](https://github.com/jonasdalt
 Lespagina: <https://jonasdaltongent.github.io/Montage-DaltonMovies/> · dia's: <https://jonasdaltongent.github.io/Montage-DaltonMovies/presentatie.html>
 (dat adres staat ook op dia 9 en in `classroom.json` en `lesdoelen.json`).
 
-### Stap 2 — De opdracht in Classroom, met de koppeling ✅ *concept op 18-10-2026, nog niet ingepland*
+### Stap 2 — De opdracht in Classroom, met de koppeling ✅ *concept op 18-10-2026, ingepland op do 22-10 om 14.05*
 
 Als **concept** in [3MWWE - Informatica](https://classroom.google.com/c/MjUzNjQyOTk0NDFa) (teruggelezen via de API: `DRAFT`, 20 punten, deadline vr 23-10 20.00 uur, bijlagen: de lespagina en *Montagelogboek* als `STUDENT_COPY`), onder het onderwerp **Project Dalton @ the movies** (nieuw in de klas: het script maakt het aan).
-**Publiceren of inplannen doe je zelf** (of de hoofdsessie, na het nakijken): een half uur vóór de les, do 22-10 om 14.05
-(`_afspraken/publiceren.md`): `python3 _tools/zet_opdracht_klaar.py "<lesmap>" --publiceer --klas 3MWWE --inplannen 2026-10-22T14:05`.
+**Ingepland** door de hoofdsessie na het nakijken (18-10-2026, teruggelezen: `DRAFT` met een tijdstip): Classroom publiceert
+zelf een half uur vóór de les, do 22-10 om 14.05 (`_afspraken/publiceren.md`).
 
 | | Opdracht: **Projectles 1 — Kennismaken met de montage** |
 |---|---|
