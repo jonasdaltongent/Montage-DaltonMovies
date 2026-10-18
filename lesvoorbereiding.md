@@ -28,7 +28,8 @@ opgesteld_volgens: "_afspraken/ (werkruimte Toegepaste Informatica)"
 > **Informatica doet de montage, in Canva.** Eindproduct op vr 13-11, getoond op het slotmoment. Drie projectlessen:
 > vandaag kennismaken met de montage, do 29-10 muziek, tekst en geluid, do 12-11 afwerken en inleveren.
 >
-> **Beslist door Jonas (18-10-2026):** één leerling per groep maakt het ontwerp uit een video-sjabloon en deelt het
+> **Beslist door Jonas (18-10-2026):** één leerling per groep maakt het ontwerp (sinds de test met demoleerling3: een **leeg**
+> video-ontwerp, *Video › Liggende video*; een sjabloon komt in projectles 2) en deelt het
 > met de twee anderen (Jonas zet in Canva niets klaar) · de groep werkt met **de eigen clips**, gefilmd bij Cubex, die
 > ze met de **Canva-app op hun gsm** in het ontwerp zetten (de gsm mag in de les) · elke leerling levert een kort
 > werkdocument in: het **montagelogboek** (20 punten).
@@ -91,7 +92,7 @@ rollen in de groep echt verdeeld en opgevolgd worden").
 - **BV2_04.03** — *De leerlingen gebruiken doelgericht courante functionaliteiten van vergelijkbare toepassingen om
   digitale inhouden te beheren.* · **Toepassen** — mogelijke lesinhouden: *bestanden delen met gepaste toegangsrechten
   (lezen, reageren, bewerken)*; context: *gedeelde map voor een groepswerk*. In deze les: één gedeelde plek per groep,
-  gedeeld met **Kan bewerken**; clips van de gsm rechtstreeks in die plek.
+  gedeeld met **Mag bewerken**; clips van de gsm rechtstreeks in die plek.
 - **BV2_04.04** — *De leerlingen respecteren ethische, sociale en legale regels bij het gebruiken van digitale
   technologie.* · **Toepassen** — mogelijke lesinhouden: *portretrecht bij foto's en video's*. In deze les: wie
   herkenbaar in de clips staat, geeft toestemming om getoond te worden op het slotmoment. Muziek en licenties volgen
@@ -113,7 +114,7 @@ rollen in de groep echt verdeeld en opgevolgd worden").
 ## 7. Concrete lesdoelen · 9. Bloomniveau en kennisdimensie
 
 1. De leerlingen maken met hun groep één video-ontwerp in Canva en delen het met hun groepsgenoten met het recht
-   **Kan bewerken**. *(toepassen, procedureel)*
+   **Mag bewerken**. *(toepassen, procedureel)*
 2. De leerlingen zetten hun eigen clips met de Canva-app van hun gsm in het gedeelde ontwerp. *(toepassen, procedureel)*
 3. De leerlingen leggen de clips op de tijdlijn in de volgorde van het storyboard, en kiezen telkens of ze een clip
    **inkorten**, **splitsen** of **verslepen**. *(toepassen en analyseren, procedureel en conceptueel)*
@@ -148,7 +149,7 @@ Zie `README.md` §2 (de lesbouwer werkt het uit). In het kort:
 
 - **Vóór donderdag** (via Classroom of de leraar Cubex): *Installeer de Canva-app op je gsm en meld je aan met je
   schoolaccount. Breng je storyboard mee.*
-- Met een **leerlingaccount** nakijken: aanmelden in Canva, een video-ontwerp maken, delen met **Kan bewerken**, een
+- Met een **leerlingaccount** nakijken: aanmelden in Canva, een video-ontwerp maken, delen met **Mag bewerken**, een
   clip uploaden met de app, de tijdlijn met **Splitsen** (`_vakinhoud/videomontage.md`, *Nog na te kijken* 1–5).
 - Voor de demo: een video-ontwerp met twee korte clips (stockvideo's uit Canva of een eigen filmpje zonder
   herkenbare personen).
@@ -199,7 +200,7 @@ eindproduct vr 13-11 op het slotmoment).
 
 - *Plak hier de link naar het ontwerp van je groep:* [vak]
 - *Ons ontwerp is gedeeld met (voornamen, en je leraar):* [vak]
-- *Met welk recht? Een x bij één:* Kan bekijken · Kan reageren · Kan bewerken.
+- *Met welk recht? Een x bij één:* Mag bekijken · Kan reactie achterlaten · Mag bewerken.
 
 **Deel 3 — Onze clips** (stap 3 en 4, 6 punten)
 
@@ -234,11 +235,11 @@ van de trailer vergelijken met het storyboard) staat op de lespagina en gebeurt 
 
 | Fase | Tijd | Inhoud |
 |---|---|---|
-| **Instructie** — lesstart | 1' + 3' | **Dia 1** (*Zo start je*) terwijl de computers opstarten; de groepen zitten samen. **Dia 2**, ophalen uit les 2: *In les 2 deelde je je onderzoeksmap met je leraar als Kijker. Je groepsgenoten moeten mee monteren in jullie trailer. Welk recht krijgen ze?* A Kan bekijken · B Kan reageren · **C Kan bewerken**. Vingers. Brug in de notities: *"In Canva heten de rechten een beetje anders dan in Drive, maar ze werken hetzelfde."* (Ophalen uit les 2 en niet uit les 3: de e-mail heeft niets met de montage te maken.) |
+| **Instructie** — lesstart | 1' + 3' | **Dia 1** (*Zo start je*) terwijl de computers opstarten; de groepen zitten samen. **Dia 2**, ophalen uit les 2: *In les 2 deelde je je onderzoeksmap met je leraar als Kijker. Je groepsgenoten moeten mee monteren in jullie trailer. Welk recht krijgen ze?* A Mag bekijken · B Kan reactie achterlaten · **C Mag bewerken**. Vingers. Brug in de notities: *"In Canva heten de rechten een beetje anders dan in Drive, maar ze werken hetzelfde."* (Ophalen uit les 2 en niet uit les 3: de e-mail heeft niets met de montage te maken.) |
 | **Instructie** — Ik doe | **5'** | **Dia 3** lesdoel en het project: wie doet wat (Cubex, Nederlands, Engels, informatica), de drie projectlessen (1'). **Dia 4** de rollen in de groep (30"). **Dia 5, demo live in Canva, hardop denkend** (2'30"): de tijdlijn onderaan (de afspeelkop, de hoofdtrack); een clip **inkorten** door de rand te slepen (*"het storyboard zegt: 2 seconden"*); een clip **splitsen** op de afspeelkop (**Splitsen** of **S**) en het stuk verwijderen; een clip **verslepen**. **Dia 6** de tijdlijn als tekening met labels (afspeelkop, hoofdtrack, linker- en rechterrand) en één zin per handeling: inkorten = aan de rand · splitsen = midden in de clip · slepen = een andere volgorde (30"). |
 | **Instructie** — controle | 1' | **Dia 7**: *Midden in je clip loopt iemand door het beeld. Wat doe je?* A het einde inkorten · **B twee keer splitsen en het stuk ertussen verwijderen** · C de hele clip verwijderen. Vingers; wie A of C toont, komt zo dadelijk even bij je. |
 | **Samen** | **4'** | **Dia 8**: iedereen doet stap 1 (het werkdocument openen, de rollen verdelen en invullen); duim op. |
-| **Keuzewerktijd** | **tot het einde** | **Dia 9** blijft staan, met de kloktijden; stap 2 tot 5, inleveren inbegrepen. Eerste rondgang (stap 2): werkt elke groep in **één** ontwerp, gedeeld met **Kan bewerken**? Tweede rondgang (stap 3): staan de clips van de gsm in het ontwerp, niet alleen in *Uploads*? Laatste minuut: **dia 10**, de exitvraag, en mondeling: wie niet klaar is, levert toch in. |
+| **Keuzewerktijd** | **tot het einde** | **Dia 9** blijft staan, met de kloktijden; stap 2 tot 5, inleveren inbegrepen. Eerste rondgang (stap 2): werkt elke groep in **één** ontwerp, gedeeld met **Mag bewerken**? Tweede rondgang (stap 3): staan de clips van de gsm in het ontwerp, niet alleen in *Uploads*? Laatste minuut: **dia 10**, de exitvraag, en mondeling: wie niet klaar is, levert toch in. |
 
 Niet voorgedaan: het ontwerp maken en delen (stap 2) en de clips uploaden met de gsm (stap 3): de lespagina doet het
 stap voor stap, en de demo zou te lang worden (`_afspraken/didactiek.md`). Wel voorgedaan wat makkelijk misloopt: de
@@ -260,18 +261,17 @@ Route in twee groepen: *Het ontwerp van de groep* (stap 1–3) · *Monteren* (st
    - Tip: *Geen storyboard bij? Schrijf samen op een blad de volgorde van jullie shots, in één zin per shot.*
 2. **Het ontwerp van de groep** (8') — *Canva · Werkdocument, deel 2*
    - **Alleen de monteur**: open Canva (knop **Open Canva**, `https://www.canva.com`, nieuw tabblad) en meld je aan
-     met je schoolaccount · zoek bij de sjablonen een **video-sjabloon** (bijvoorbeeld *trailer*), liggend (16:9) ·
-     kies er een en klik op **Deze sjabloon aanpassen** · geef het ontwerp een naam: *Trailer – <de titel van jullie
+     met je schoolaccount · bovenaan **Video** › **Liggende video** (opent in een nieuw tabblad) · bovenaan op **Ontwerp
+     zonder titel** klikken en de naam typen: *Trailer – <de titel van jullie
      trailer>* · klik op **Delen**, typ de namen van je groepsgenoten en het adres van je leraar (op het bord), kies
-     **Kan bewerken**.
+     **Mag bewerken**.
    - **De anderen**: open Canva en meld je aan · open het ontwerp dat met jou gedeeld is (het staat bij je projecten,
      bij wat met jou gedeeld is).
    - **Iedereen**: kopieer de link van het ontwerp en plak ze in deel 2; vul deel 2 aan.
-   - Infokader *Eén ontwerp voor de hele groep*: wie het ontwerp maakt, is de eigenaar · **Kan bewerken**: openen,
-     bewerken en opslaan · **Kan reageren** en **Kan bekijken** zijn niet genoeg om te monteren · deel met naam of
+   - Infokader *Eén ontwerp voor de hele groep*: wie het ontwerp maakt, is de eigenaar · **Mag bewerken**: openen,
+     bewerken en opslaan · **Kan reactie achterlaten** en **Mag bekijken** zijn niet genoeg om te monteren · deel met naam of
      e-mailadres: wie via een link binnenkomt zonder aangemeld te zijn, kan niets uploaden.
-   - Tip: *Zie je de tekst en clips van het sjabloon? Die vervang je in stap 3 door jullie eigen clips. Wat je niet
-     nodig hebt, verwijder je in stap 4.*
+   - Tip: *Waar is de lespagina? Canva opent je ontwerp in een nieuw tabblad: klik bovenaan op het tabblad van de lespagina.*
 3. **Clips van je gsm** (8') — *Canva-app op je gsm*
    - **Iedereen met clips**: open de **Canva-app** op je gsm (aangemeld met je schoolaccount) · open het ontwerp van
      je groep · tik in de werkbalk onderaan op **Uploads** · upload je clips · **tik op een clip** om ze in het
@@ -291,7 +291,7 @@ Route in twee groepen: *Het ontwerp van de groep* (stap 1–3) · *Monteren* (st
      tijdlijn: anders schuiven de clips onder elkaars handen.
    - Handelingen: zet de clips in de volgorde van het storyboard (**slepen**) · **kort in** wat te lang is (sleep de
      linker- of rechterrand) · **splits** een clip waar iets uit het midden weg moet (afspeelkop op de plek,
-     **Splitsen** of **S**, het stuk selecteren, Delete) · verwijder de clips en tekst van het sjabloon die jullie niet
+     **Splitsen** of **S**, het stuk selecteren, Delete) · verwijder wat jullie niet
      nodig hebben · speel af met de **spatiebalk**.
    - Iedereen vult in deel 3 in wat er geknipt is.
    - Infokader *Inkorten, splitsen of slepen?* (de tekening van dia 6).
@@ -303,7 +303,7 @@ Route in twee groepen: *Het ontwerp van de groep* (stap 1–3) · *Monteren* (st
      Classroom op **Inleveren** (het filmpje *Inleveren*, zoals in MWW les 3).
    - Zelftest: (1) *Je clip begint met 3 seconden wiebelende camera. Wat doe je?* **inkorten: sleep de linkerrand** ·
      splitsen in het midden · de clip opnieuw uploaden. (2) *Je groepsgenoot kan jullie ontwerp openen, maar niets
-     veranderen. Wat is er mis?* **het is gedeeld met Kan bekijken in plaats van Kan bewerken** · de clip is te lang
+     veranderen. Wat is er mis?* **het is gedeeld met Mag bekijken in plaats van Mag bewerken** · de clip is te lang
      · hij heeft de app niet. (3) *Je uploadde je clip met je gsm, maar ze staat niet in de tijdlijn. Wat vergat je?*
      **op de clip tikken, zodat ze in het ontwerp komt** · ze exporteren · ze splitsen.
    - Daarna het blok *Afwerken en inleveren* (dicht tot de drie vragen juist zijn), met het codewoord **KLAPPER**.
@@ -345,7 +345,7 @@ nakijkt (via de link in deel 2). De criteria staan als `controletabel` onderaan 
 | Criterium | Punten |
 |---|---|
 | Deel 1: de titel en de drie rollen verdeeld | 2 |
-| Deel 2: de link opent het ontwerp van de groep; gedeeld met de groepsgenoten en de leraar, met Kan bewerken | 4 |
+| Deel 2: de link opent het ontwerp van de groep; gedeeld met de groepsgenoten en de leraar, met Mag bewerken | 4 |
 | Deel 3: elke clip met het shotnummer, wat je ziet, in het ontwerp, en wat er geknipt is | 6 |
 | Deel 4a: inkorten, splitsen of slepen, juist bij de drie situaties | 3 |
 | Deel 4b: wie herkenbaar in beeld staat, en of die het tonen goed vindt (of wie het vraagt) | 2 |
@@ -356,7 +356,7 @@ nakijkt (via de link in deel 2). De criteria staan als `controletabel` onderaan 
 **Verwachte antwoorden deel 4a:** wiebelend begin → **inkorten** (de linkerrand slepen) · iemand loopt midden door het
 beeld → **twee keer splitsen** en het stuk ertussen verwijderen · shot 4 vóór shot 3 → **slepen** in de tijdlijn.
 
-**Essentiële fouten:** elk groepslid een eigen ontwerp in plaats van één gedeeld ontwerp · gedeeld met *Kan bekijken*
+**Essentiële fouten:** elk groepslid een eigen ontwerp in plaats van één gedeeld ontwerp · gedeeld met *Mag bekijken*
 (de groep kan niet samen monteren) · een link die niemand anders kan openen · iemand herkenbaar in beeld die niet
 weet dat de trailer getoond wordt.
 
@@ -411,12 +411,12 @@ weet dat de trailer getoond wordt.
 - **Midden** één stap tegelijk, met *Stap voor stap / Kort* en de infokaders; in stap 2 de knop **Open Canva**.
 - **Rechts** de checklist: ± 16 taken, per stap.
 - **Theoriekaart** (± 10 kaartjes): zo werkt deze les · het project (wie doet wat) · de rollen · de tijdlijn ·
-  inkorten · splitsen · slepen en verwijderen · samen in één ontwerp (Kan bewerken) · van je gsm in het ontwerp ·
+  inkorten · splitsen · slepen en verwijderen · samen in één ontwerp (Mag bewerken) · van je gsm in het ontwerp ·
   wie er in beeld komt · woorden (monteren, clip, tijdlijn, afspeelkop, hoofdtrack, inkorten, splitsen, storyboard,
   eigenaar, portretrecht) · veelgemaakte fouten.
 - **Beelden** (tekeningen in HTML en CSS, `_afspraken/vormgeving-en-techniek.md`, *Tekeningen en beelden*): de opdracht
   in Classroom; de tijdlijn met labels (afspeelkop, hoofdtrack, linker- en rechterrand; dia 6, stap 4, theoriekaart);
-  inkorten en splitsen als twee kleine voor-en-na-tekeningen; het venster *Delen* met **Kan bewerken** (als tekening:
+  inkorten en splitsen als twee kleine voor-en-na-tekeningen; het venster *Delen* met **Mag bewerken** (als tekening:
   de knopnamen zijn machinaal vertaald, Jonas' scherm wint); een gsm met de werkbalk en **Uploads** (tekening).
   **Geen schermafbeeldingen van Canva** tot Jonas de knopnamen op zijn scherm bevestigde (README, *Wat nog moet
   blijken*); daarna kunnen ze er komen.
@@ -443,7 +443,7 @@ keer goed te keuren door Jonas). Alleen verwijzingen en eigen woorden.
 
 | Bron | Waar | Wat de les ervan gebruikt | Bewust niet, en waarom |
 |---|---|---|---|
-| Canva-help (online, in de browser: Canva weigert scripts) | *Video's maken en bewerken*; *Machtigingen voor delen instellen* (met *Samenwerken met iedereen* en *Machtigingen instellen voor je team*); *Media vanaf je apparaat uploaden* (met *Geüploade media beheren*), gelezen 18-10-2026 | de tijdlijn (afspeelkop, hoofdtrack), inkorten (de randen slepen), splitsen (afspeelkop, **Splitsen** of **S**), verslepen en verwijderen, afspelen met de spatiebalk; delen met **Kan bewerken**; gasten via een link kunnen niets uploaden; uploads zijn privé tot je ze in het ontwerp zet; mobiel: **Uploads** in de werkbalk | overgangen, audio en exporteren (projectles 2–3); de mobiele stappen van de help (konden niet gelezen worden: *Nog na te kijken* 3); het verschil *Kan bewerken* / *Mag bewerken* (machinaal vertaald) |
+| Canva-help (online, in de browser: Canva weigert scripts) | *Video's maken en bewerken*; *Machtigingen voor delen instellen* (met *Samenwerken met iedereen* en *Machtigingen instellen voor je team*); *Media vanaf je apparaat uploaden* (met *Geüploade media beheren*), gelezen 18-10-2026 | de tijdlijn (afspeelkop, hoofdtrack), inkorten (de randen slepen), splitsen (afspeelkop, **Splitsen** of **S**), verslepen en verwijderen, afspelen met de spatiebalk; delen met **Mag bewerken**; gasten via een link kunnen niets uploaden; uploads zijn privé tot je ze in het ontwerp zet; mobiel: **Uploads** in de werkbalk | overgangen, audio en exporteren (projectles 2–3); de mobiele stappen van de help (konden niet gelezen worden: *Nog na te kijken* 3); het verschil *Mag bewerken* / *Mag bewerken* (machinaal vertaald) |
 | TC KS4 Media | L3 *Creating digital video* (lesplan, werkblad *Create digital video with OpenShot*, *Storyboard for short video*, *Missing words*) | de volgorde storyboard → clips → knippen → ordenen; *cut* (harde overgang) tegenover *fade*; het idee van een voorbeeld met een aangereikt storyboard (de voorbeeldrij in deel 3 en de demo) | OpenShot (andere software), de camerastandpunten (Cubex), beeldsnelheid en compressie (te technisch voor dit project), het hele stappenplan van 20 stappen (te lang) |
 | TC KS4 Media | L1 *What is pre-production* (storyboard, dia 20–24) | het storyboard als plan voor de volgorde en de lengte (de rol van de regisseur) | zelf een storyboard maken: dat doet Cubex |
 | Hello World | 27 p. 36 (*Dance Live!*: leerlingen nemen productierollen op) | de rollen in de groep (monteur, regisseur, clipverzamelaar) en de voorwaarde van het lessenplan voor `BV2_05.01` | de wedstrijd zelf |
@@ -458,6 +458,11 @@ Breder gezocht met `zoek_bronnen.py` op: `montage OR monteren`, `"video editing"
 `storyboard`, `trailer`, `Canva`, `splitsen OR knippen`, `trim OR split`, `portretrecht OR afbeelding`, `filmen`. De
 treffers in Lift gaan over Canva voor affiches en folders (retail, onthaal), niet over video.
 
-**Tegenstrijdigheden:** de Canva-help noemt het recht zowel *Kan bewerken* als *Mag bewerken* (machinaal vertaald):
-de les zegt **Kan bewerken** en Jonas kijkt het na op zijn scherm. De help zegt dat de nieuwe video-editor
-"geleidelijk" komt: welke editor de schoolaccounts hebben, is niet nagekeken (*Nog na te kijken* 2).
+**Tegenstrijdigheden:** de Canva-help noemt het recht zowel *Kan bewerken* als *Mag bewerken* (machinaal vertaald). Op het
+scherm van het leerlingaccount demoleerling3 (18-10-2026) heet het **Mag bewerken** (in het venster kort *Bewerken*), naast
+*Kan reactie achterlaten* en *Mag bekijken*: de les volgt het scherm. De nieuwe video-editor met tijdlijn is er voor de
+schoolaccounts.
+
+**Nagekeken in Canva met demoleerling3** (18-10-2026, na de bouw): de lespagina kreeg dertien schermafbeeldingen en een filmpje
+*Splitsen* in plaats van de tekeningen van Canva, en een leeg ontwerp in plaats van een sjabloon (Jonas: *Alle … pagina's
+toepassen* vervangt de hele tijdlijn). Zie README § 1 en § 8.

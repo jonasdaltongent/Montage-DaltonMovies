@@ -64,7 +64,7 @@ def montagelogboek():
     vraag(doc, "Ons ontwerp is gedeeld met (voornamen, en je leraar):")
     antwoordvak(doc, 1.1)
     vraag(doc, "Met welk recht? Typ een x bij één:")
-    tabel(doc, ["Kan bekijken", "Kan reageren", "Kan bewerken"], [("", "", "")],
+    tabel(doc, ["Mag bekijken", "Kan reactie achterlaten", "Mag bewerken"], [("", "", "")],
           [BREEDTE / 3, BREEDTE / 3, BREEDTE / 3], invul=(0, 1, 2), rijhoogte=0.9)
 
     # ---- Deel 3: onze clips (stap 3 en 4), een eigen bladzijde: de tabel breekt niet
@@ -101,7 +101,7 @@ def montagelogboek():
     controletabel(doc, [
         ("Deel 1: de titel van de trailer en de drie rollen zijn ingevuld.", 2),
         ("Deel 2: de link opent het ontwerp van de groep. Het ontwerp is gedeeld met de groepsgenoten en met de "
-         "leraar, met Kan bewerken.", 4),
+         "leraar, met Mag bewerken.", 4),
         ("Deel 3: bij elke clip staan het shotnummer, wat je ziet, of ze in het ontwerp staat en wat je geknipt "
          "hebt.", 6),
         ("Deel 4a: bij elke situatie staat inkorten, splitsen of slepen.", 3),

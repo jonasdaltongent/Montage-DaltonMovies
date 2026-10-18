@@ -41,10 +41,19 @@ W08 - Project 1 - MWW - Kennismaken met de montage/
 blijft in Canva en wordt niet ingeleverd. Het werkdocument *Montagelogboek* is het enige dat ze inleveren: de link naar
 het ontwerp, wie welke rol had, per clip wat ze knipten, en wie er herkenbaar in beeld staat.
 
-**Canva zonder schermafbeeldingen.** De knopnamen komen uit `_afspraken/klikpaden.md` (nagelezen in de Nederlandse help op
-18-10-2026, nog niet op jouw scherm). Alle beelden van Canva zijn tekeningen in HTML en CSS: de tijdlijn (afspeelkop,
-hoofdtrack, randen; voor en na inkorten, splitsen, slepen), het venster *Delen*, de adresbalk, een gsm met de werkbalk. Het
-logo van Canva staat er niet in (eerst een ja van jou, `_afspraken/vormgeving-en-techniek.md`).
+**Canva nagekeken met het leerlingaccount demoleerling3** (18-10-2026, in Chrome, op 1280 en 1568 px breed). Wat de les
+gebruikt, werkt zo: **Video › Liggende video** (opent in een nieuw tabblad, met de nieuwe tijdlijn), de naam bovenaan,
+**Delen › Mensen toevoegen** (leerlingen van de school vind je op naam) met de rol **Bewerken** (*Mag bewerken*),
+**Link kopiëren**, **Projecten › Met jou gedeeld**, **+ › Uploads/Stockvideo's**, **Bestanden uploaden** (uploaden mag),
+in de clip klikken (de afspeelkop springt erheen), **S** of rechtsklik › **Splitsen**, de rand slepen, **Delete**, slepen,
+**Ongedaan maken**. Dertien schermafbeeldingen (`assets/stapjes/canva-*.png`, één rood kader, geen namen) en het filmpje
+`assets/video/splitsen.mp4` (13 s) vervangen de tekeningen van Canva in stap 2 en 4. De gsm-stap blijft een tekening: de app
+zelf kon niet nagekeken worden. Het logo van Canva staat er niet los in (eerst een ja van jou,
+`_afspraken/vormgeving-en-techniek.md`); in een schermafbeelding is het weggesneden.
+
+**Een leeg ontwerp, geen sjabloon** (Jonas, 18-10-2026, na de test): *Alle … pagina's toepassen* van een sjabloon vervangt de
+hele tijdlijn (± 13 scènes met tekst, overgangen en muziek). Projectles 1 start daarom met een lege *Liggende video*;
+titels, overgangen en muziek (eventueel uit een sjabloon) komen in projectles 2.
 
 ### 1b. Hoe de lespagina werkt
 
@@ -102,18 +111,20 @@ Met een **leerlingaccount** nakijken (zie ook §8). Je scherm wint van de lespag
 - [ ] Het adres van de leraar (waarmee de monteur deelt) staat op het bord.
 - [ ] Een video-ontwerp met twee korte clips klaar voor de demo (stockvideo's, of een eigen filmpje zonder herkenbare personen) in je eigen Canva.
 - [ ] Via Classroom of Cubex gevraagd: *Installeer de Canva-app op je gsm, meld je aan met je schoolaccount, breng je storyboard mee.*
-- [ ] Aanmelden bij Canva met het schoolaccount lukt, op de computer én in de app.
-- [ ] Een nieuw video-ontwerp toont onderaan een **tijdlijn**, en de knop heet **Splitsen** (of de toets **S** werkt).
-- [ ] Delen met **Kan bewerken** werkt, en een groepslid kan een clip uploaden, inkorten en splitsen.
-- [ ] Een leerling mag media uploaden vanaf een gsm (instelling van het Canva-team van de school).
+- [x] Aanmelden bij Canva met het schoolaccount lukt op de computer (demoleerling3, 18-10-2026). In de app: nog niet gezien.
+- [x] Een nieuw video-ontwerp toont onderaan een **tijdlijn**; **S** en rechtsklik › **Splitsen** werken (18-10-2026).
+- [ ] Delen met **Bewerken** tussen twee leerlingaccounts: kan het andere groepslid een clip uploaden, inkorten en splitsen?
+  (Getest tot vóór de knop *Delen*: het testaccount kan niet met zichzelf delen.)
+- [x] Een leerling mag media uploaden op de computer (**Bestanden uploaden**, een testfilmpje, 18-10-2026). Vanaf een gsm: nog niet gezien.
 - [ ] De dia's staan op het bord; de kloktijden kloppen met het lesuur.
 
 ### 2b. Nagelezen klikpaden
 
-Alle knopnamen van Canva staan in `_afspraken/klikpaden.md` (zeven rijen *Canva: …*, 18-10-2026, machinaal vertaald, nog niet
-op jouw scherm). Op de lespagina staan: **Open Canva** (een link), **Sjablonen**, **Deze sjabloon aanpassen**, **Delen**,
-**Kan bewerken** (·**Kan reageren** · **Kan bekijken**), **Uploads** (gsm), **+** › **Stockvideo's**, de toets **S**,
-**Delete**, de **spatiebalk**.
+Alle knopnamen van Canva staan in `_afspraken/klikpaden.md` (rijen *Canva: …*), sinds 18-10-2026 **gezien op het scherm van
+het leerlingaccount demoleerling3**. Op de lespagina staan: **Open Canva** (een link), **Video**, **Liggende video**,
+**Ontwerp zonder titel**, **Delen**, **Mensen toevoegen**, **Bewerken** (*Mag bewerken* · *Kan reactie achterlaten* · *Mag
+bekijken*), **Link kopiëren**, **Projecten** › **Met jou gedeeld**, **Uploads** (gsm, niet gezien), **+** › **Stockvideo's**,
+de toets **S**, rechtsklik › **Splitsen**, **Delete**, de **spatiebalk**, **Ongedaan maken** (Ctrl + Z).
 
 ## 3. Het verloop van de les
 
@@ -149,7 +160,11 @@ Punten: 2 + 4 + 6 + 3 + 2 + 2 (*in het ontwerp*, jij kijkt via de link na) + 1 =
 ## 5. Schermafbeeldingen (optioneel)
 
 De beelden bij het werkdocument (`assets/stapjes/`) komen uit de pdf van Google Documenten (`werkdocument/maak_stapjes.py`).
-Schermafbeeldingen van Canva komen er pas als jij de knopnamen op je scherm bevestigde; de tekeningen kunnen dan vervangen worden.
+De schermafbeeldingen van Canva (`assets/stapjes/canva-*.png`) en het filmpje *Splitsen* zijn op 18-10-2026 gemaakt met het
+testaccount demoleerling3, in een testontwerp met stockvideo's van Canva en een eigen testbeeld (geen personen). Opnieuw maken:
+`zoom`-opnames van Claude in Chrome, uitsnijden met één rood kader, en voor het filmpje `_tools/maak_instructiefilmpje.py`
+(`_afspraken/filmpjes-en-schermafbeeldingen.md`). Het Google-document aan het concept kreeg op 18-10-2026 de nieuwe
+labels van deel 2 (*Mag bekijken · Kan reactie achterlaten · Mag bewerken*; zelfde bestand, nog `DRAFT`, ingepland).
 
 ## 6. Het materiaal opnieuw maken
 
@@ -169,17 +184,15 @@ schrijft ze naar het jaaroverzicht.
 
 ## 8. Wat nog moet blijken in de klas
 
-Niet vooraf te testen (de AI had geen leerlingaccount, geen gsm en geen Canva-scherm; `_vakinhoud/videomontage.md`, *Nog na te kijken*):
+Nagekeken op 18-10-2026 met het leerlingaccount demoleerling3 (computer): aanmelden, de nieuwe tijdlijn met **Splitsen** en **S**,
+uploaden (**Bestanden uploaden**), **Ongedaan maken**, en de echte namen van de rechten (*Mag bewerken*, in het venster kort
+*Bewerken*). Nog niet te testen:
 
-1. **Aanmelden** bij Canva met het schoolaccount, op de computer én in de app; zitten de leerlingen in een klas van jou in Canva?
-2. **Welke video-editor** de schoolaccounts krijgen: staat er onderaan een tijdlijn, en heet de knop *Splitsen*? Het **Canva-scherm wint** van de lespagina.
-3. **De knopnamen in de Canva-app op de gsm.** Alleen **Uploads** (werkbalk onderaan) is uit de help. De lespagina houdt de stappen
-   algemeen: *open de app › zoek het ontwerp › Uploads › upload je clips (kies ze uit je gsm) › tik op de clip*. Welke tab of knop
-   heet echt hoe, en of *Uploads* zo in de werkbalk staat, moet blijken.
-4. **Ziet de groep een clip** die één lid uploadde en in het ontwerp zette, en kan een ander lid ze inkorten en splitsen?
-5. **Mag een leerling media uploaden** vanaf een gsm (instelling van het Canva-team)?
-6. **Ongedaan maken**: de sneltoets is niet nagelezen; de tip zegt *vraag het aan je leraar*.
-7. *Kan bewerken* of *Mag bewerken*: de help gebruikt beide.
-8. Niet nagelezen en in de les gebruikt: waar de **naam van het ontwerp** staat (stap 2), dat de **adresbalk** van Chrome het adres
-   geeft waarmee een gedeeld groepslid het ontwerp opent, en of **Open Canva** in een nieuw tabblad niet vraagt om aan te melden met een privé-account.
-9. Heeft elke groep clips op een gsm, en een storyboard? Tijdsduur van de stappen (stap 4 in 14 minuten).
+1. **De Canva-app op de gsm**: aanmelden, het gedeelde ontwerp vinden, **Uploads** in de werkbalk, uploaden en op de clip
+   tikken. De lespagina houdt die stappen algemeen. Ook in een smal browservenster toont Canva de computereditor, niet de app.
+2. **Delen tussen twee leerlingen**: ziet het andere groepslid het ontwerp bij *Met jou gedeeld*, en kan die een clip
+   uploaden, inkorten en splitsen?
+3. **Een aangeklikte upload komt op de plaats van de afspeelkop**, niet achteraan (gezien op 18-10-2026): verwarrend als de
+   afspeelkop midden in een clip staat? De lespagina zegt het in stap 3.
+4. Heeft elke groep clips op een gsm, en een storyboard? Tijdsduur van de stappen (stap 4 in 14 minuten).
+5. Gebruiken de leerlingen het filmpje *Splitsen*, en lukt *in de clip klikken* (de afspeelkop springt erheen)?
