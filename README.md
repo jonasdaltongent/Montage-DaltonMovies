@@ -180,8 +180,8 @@ cd werkdocument && python3 maak_werkdocumenten.py          # Montagelogboek.docx
 python3 maak_stapjes.py <leeg.pdf>                           # assets/stapjes/
 ```
 
-`_tools/zet_lesmomenten.py` kent geen map *Project 1* (alleen *Les <nr>*): de lesmomenten op dia 9 staan met de hand
-(`2026-10-22/14.35/15.25/3MWWE/8`). Verschuift het lesuur, pas dat attribuut aan of druk op **T**.
+`_tools/zet_lesmomenten.py` kent sinds 19-10-2026 ook een map *Project <n>* (de projectdagen in de schoolkalender):
+`python3 _tools/zet_lesmomenten.py "<lesmap>"` zet `2026-10-22/14.35/15.25/3MWWE/8`, dezelfde waarde die er met de hand stond.
 
 ## 7. Leerplandoelen in je jaaroverzicht
 
