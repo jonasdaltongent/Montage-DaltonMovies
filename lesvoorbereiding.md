@@ -247,8 +247,8 @@ tijdlijn (inkorten tegenover splitsen).
 
 ## 18–19. Zelfstandige verwerking en stappenplan
 
-Route · één stap · checklist (± 16 taken). *Stap voor stap / Kort* zoals MWW les 3, de les begint in *Stap voor stap*
-(`data-modus-start="stap"`), kleine stapjes met één beeld, grijze regels en één tip per stap. Leesmateriaal staat in
+Route · één stap · checklist (± 16 taken). *Toon stapjes* per handeling zoals MWW les 3, de les begint in *Kort*
+(`data-modus-start="kort"`, zonder knop sinds 18-10-2026), kleine stapjes met één beeld, grijze regels en één tip per stap. Leesmateriaal staat in
 een **infokader** in de stap, in de volgorde van de vragen.
 
 Route in twee groepen: *Het ontwerp van de groep* (stap 1–3) · *Monteren* (stap 4–5).
@@ -408,7 +408,7 @@ weet dat de trailer getoond wordt.
   tekening van de tijdlijn met vier clips in volgorde, shotnummers erboven (verklapt niets) · *Na deze les kan je*
   (drie punten) · *Vast?* (*Toon stapjes → je groep → je leraar*) · *Start met stap 1*.
 - **Links** de route: *Start*, *Theoriekaart*, stap 1–3 (*Het ontwerp van de groep*), stap 4–5 (*Monteren*), *Extra*.
-- **Midden** één stap tegelijk, met *Stap voor stap / Kort* en de infokaders; in stap 2 de knop **Open Canva**.
+- **Midden** één stap tegelijk, met *Toon stapjes* per handeling en de infokaders; in stap 2 de knop **Open Canva**.
 - **Rechts** de checklist: ± 16 taken, per stap.
 - **Theoriekaart** (± 10 kaartjes): zo werkt deze les · het project (wie doet wat) · de rollen · de tijdlijn ·
   inkorten · splitsen · slepen en verwijderen · samen in één ontwerp (Mag bewerken) · van je gsm in het ontwerp ·
@@ -426,7 +426,7 @@ weet dat de trailer getoond wordt.
 - Checklist met voortgangsbalk (`localStorage`, voorvoegsel `movies_montage_v1_`) en een wisknop; groen vinkje in de
   route; op een smal scherm alleen de taken van de huidige stap; in stap 5 de hele lijst.
 - Vorige/volgende-knoppen; de laatst geopende stap wordt onthouden.
-- *Stap voor stap / Kort* zoals MWW les 3.
+- *Toon stapjes* per handeling zoals MWW les 3.
 - Een zelftest met directe feedback in stap 5 (drie vragen, niets bewaard), met het blok *Afwerken en inleveren* dat
   opengaat na drie juiste antwoorden en het codewoord **KLAPPER** toont.
 - Het filmpje *Inleveren* in stap 5 (`assets/video/inleveren.mp4`).

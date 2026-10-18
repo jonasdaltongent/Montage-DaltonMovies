@@ -62,7 +62,7 @@ titels, overgangen en muziek (eventueel uit een sjabloon) komen in projectles 2.
 - **Startpagina**: *Wat heb je nodig?* in vier beelden (2 × 2: de opdracht, de lespagina, het werkdocument, de gsm met het
   storyboard), *Dit maak je vandaag* (een tijdlijn met vier clips en hun shotnummers), *Na deze les kan je*, *Vast?*
   (*Toon stapjes* › je groep › je leraar).
-- **Stap voor stap / Kort**, zoals MWW les 3 (`data-modus-start="stap"`). Infokaders in stap 2 (*Eén ontwerp voor de hele
+- **Handelingen met stapjes**, zoals MWW les 3, maar zonder knop *Stap voor stap / Kort* en met start in *Kort* (`data-modus-start="kort"`; Jonas, 18-10-2026). Infokaders in stap 2 (*Eén ontwerp voor de hele
   groep*), stap 3 (*Uploads of ontwerp?*) en stap 4 (*Inkorten, splitsen of slepen?*, voor en na naast elkaar).
 - **Stap 5**: eerst deel 4 en de zelftest (drie vragen); het blok *Afwerken en inleveren* blijft dicht tot ze juist zijn, met
   het codewoord **KLAPPER** (`data-codewoord`; de leerling typt het in het eerste vak van deel 5) en het filmpje *Inleveren*.
