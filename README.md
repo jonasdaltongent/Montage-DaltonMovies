@@ -47,8 +47,10 @@ gebruikt, werkt zo: **Video › Liggende video** (opent in een nieuw tabblad, me
 **Link kopiëren**, **Projecten › Met jou gedeeld**, **+ › Uploads/Stockvideo's**, **Bestanden uploaden** (uploaden mag),
 in de clip klikken (de afspeelkop springt erheen), **S** of rechtsklik › **Splitsen**, de rand slepen, **Delete**, slepen,
 **Ongedaan maken**. Dertien schermafbeeldingen (`assets/stapjes/canva-*.png`, één rood kader, geen namen) en het filmpje
-`assets/video/splitsen.mp4` (13 s) vervangen de tekeningen van Canva in stap 2 en 4. De gsm-stap blijft een tekening: de app
-zelf kon niet nagekeken worden. Het logo van Canva staat er niet los in (eerst een ja van jou,
+`assets/video/splitsen.mp4` (13 s) vervangen de tekeningen van Canva in stap 2 en 4. De gsm-stap (stap 3) kreeg zes schermafbeeldingen
+(`assets/stapjes/gsm-*.png`), gemaakt in Chrome in gsm-modus (DevTools, een Android-gsm van 400 px, 18-10-2026): **Je
+ontwerpen** › **Alle projecten** › **Met jou gedeeld**, **Uploads** in de werkbalk onderaan, **Bestanden uploaden**, op de clip
+tikken. De app zelf is niet gezien: de pagina zegt dat het er in de app *bijna zo* uitziet. Het logo van Canva staat er niet los in (eerst een ja van jou,
 `_afspraken/vormgeving-en-techniek.md`); in een schermafbeelding is het weggesneden.
 
 **Een leeg ontwerp, geen sjabloon** (Jonas, 18-10-2026, na de test): *Alle … pagina's toepassen* van een sjabloon vervangt de
@@ -188,8 +190,9 @@ Nagekeken op 18-10-2026 met het leerlingaccount demoleerling3 (computer): aanmel
 uploaden (**Bestanden uploaden**), **Ongedaan maken**, en de echte namen van de rechten (*Mag bewerken*, in het venster kort
 *Bewerken*). Nog niet te testen:
 
-1. **De Canva-app op de gsm**: aanmelden, het gedeelde ontwerp vinden, **Uploads** in de werkbalk, uploaden en op de clip
-   tikken. De lespagina houdt die stappen algemeen. Ook in een smal browservenster toont Canva de computereditor, niet de app.
+1. **De Canva-app op de gsm**: gezien in de gsm-modus van Chrome (18-10-2026), niet in de app zelf. Wijkt de app af (een
+   andere naam voor *Je ontwerpen* of *Bestanden uploaden*, of uploaden via een **+**-knop)? Dan wint wat de leerlingen zien.
+   Op een echte gsm opent *Bestanden uploaden* de galerij of de bestanden: welke van de twee, moet blijken.
 2. **Delen tussen twee leerlingen**: ziet het andere groepslid het ontwerp bij *Met jou gedeeld*, en kan die een clip
    uploaden, inkorten en splitsen?
 3. **Een aangeklikte upload komt op de plaats van de afspeelkop**, niet achteraan (gezien op 18-10-2026): verwarrend als de
