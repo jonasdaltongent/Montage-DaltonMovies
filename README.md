@@ -61,15 +61,15 @@ logo van Canva staat er niet in (eerst een ja van jou, `_afspraken/vormgeving-en
 
 ## 2. Klaarzetten
 
-### Stap 1 — Publiceren via GitHub Pages
+### Stap 1 — Publiceren via GitHub Pages ✅ *gebeurd op 18-10-2026*
 
 Repository [`jonasdaltongent/Montage-DaltonMovies`](https://github.com/jonasdaltongent/Montage-DaltonMovies), Pages op branch `main`, map `/ (root)`.
 Lespagina: <https://jonasdaltongent.github.io/Montage-DaltonMovies/> · dia's: <https://jonasdaltongent.github.io/Montage-DaltonMovies/presentatie.html>
 (dat adres staat ook op dia 9 en in `classroom.json` en `lesdoelen.json`).
 
-### Stap 2 — De opdracht in Classroom, met de koppeling
+### Stap 2 — De opdracht in Classroom, met de koppeling ✅ *concept op 18-10-2026, nog niet ingepland*
 
-Als **concept** in *3MWWE - Informatica*, onder het onderwerp **Project Dalton @ the movies** (nieuw in de klas: het script maakt het aan).
+Als **concept** in [3MWWE - Informatica](https://classroom.google.com/c/MjUzNjQyOTk0NDFa) (teruggelezen via de API: `DRAFT`, 20 punten, deadline vr 23-10 20.00 uur, bijlagen: de lespagina en *Montagelogboek* als `STUDENT_COPY`), onder het onderwerp **Project Dalton @ the movies** (nieuw in de klas: het script maakt het aan).
 **Publiceren of inplannen doe je zelf** (of de hoofdsessie, na het nakijken): een half uur vóór de les, do 22-10 om 14.05
 (`_afspraken/publiceren.md`): `python3 _tools/zet_opdracht_klaar.py "<lesmap>" --publiceer --klas 3MWWE --inplannen 2026-10-22T14:05`.
 
