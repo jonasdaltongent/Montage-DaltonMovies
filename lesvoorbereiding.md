@@ -217,9 +217,11 @@ een voorbeeldrij bovenaan (grijs, de demo):
   - *Je clip begint met 3 seconden waarin de camera nog wiebelt.* [vak]
   - *Midden in een clip loopt iemand door het beeld die er niet hoort.* [vak]
   - *Shot 4 staat in de tijdlijn vóór shot 3.* [vak]
-- **b.** *Staat er iemand herkenbaar in jullie clips die niet in jullie groep zit? Wie (een voornaam of "niemand")?
-  Weet die dat de trailer op het slotmoment getoond wordt, en vindt die dat goed? Wie van jullie vraagt het?* [vak]
-  (2 punten)
+- **b.** *Staat er iemand herkenbaar in jullie clips die niet in jullie groep zit? Wie? Schrijf geen naam, wel wie het
+  is (bv. "een leerling van een andere klas", "mijn zus") of "niemand". Weet die dat de trailer op het slotmoment
+  getoond wordt, en vindt die dat goed? Wie van jullie vraagt het?* [vak] (2 punten). Tot 19-10-2026 vroeg de vraag een
+  voornaam; de verbetertool verbergt alleen namen van de klaslijst, dus een naam van iemand buiten de klas kwam in de
+  tekst voor de AI (`_afspraken/verbeteren.md`).
 
 **Deel 5 — Nalezen** (stap 5)
 
@@ -363,7 +365,7 @@ weet dat de trailer getoond wordt.
 ## 23. Feedback
 
 - **Tijdens de les**, met denkvragen (§ 21).
-- **Na de les:** één top en één tip in Classroom; de leraar kan ook een opmerking in het ontwerp zetten (*Kan
+- **Na de les:** één top en één tip in Classroom; de leraar kan ook een opmerking in het ontwerp zetten (*Mag
   bewerken* geeft dat recht). Verbeteren en opnieuw inleveren mag.
 
 ## 24. Indieninstructies

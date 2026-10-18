@@ -134,7 +134,7 @@ Zie `lesvoorbereiding.md` § 15–17 en de notities bij elke dia. In het kort: d
 dia 3–6 *Ik doe* (project, rollen, **demo live in Canva**, de tijdlijn als tekening), dia 7 controle (*iemand loopt door het
 beeld*), dia 8 *Iedereen doet stap 1* (4'), dia 9 keuzewerktijd, dia 10 de exitvraag (portretrecht).
 
-- **Eerste rondgang (stap 2):** werkt elke groep in **één** ontwerp, gedeeld met **Kan bewerken**?
+- **Eerste rondgang (stap 2):** werkt elke groep in **één** ontwerp, gedeeld met **Mag bewerken**?
 - **Tweede rondgang (stap 3):** staan de clips in het ontwerp, niet alleen in *Uploads*?
 - **Stap 4:** één monteur tegelijk op de tijdlijn. *Inkorten of splitsen, en waarom?*
 - Wie niet klaar is, levert toch in: zeg het mondeling aan het einde (staat niet op de pagina).
@@ -144,10 +144,10 @@ beeld*), dia 8 *Iedereen doet stap 1* (4'), dia 9 keuzewerktijd, dia 10 de exitv
 | Deel | Verwacht |
 |---|---|
 | 1 | een titel en drie voornamen bij de rollen |
-| 2 | een link die opent; gedeeld met de groep en de leraar; een x bij **Kan bewerken** |
+| 2 | een link die opent; gedeeld met de groep en de leraar; een x bij **Mag bewerken** |
 | 3 | per clip een shotnummer, wat je ziet, een x, wat geknipt is |
 | 4a | wiebelend begin → **inkorten** (de linkerrand slepen) · iemand door het beeld in het midden → **twee keer splitsen** en het stuk ertussen verwijderen · shot 4 vóór shot 3 → **slepen** |
-| 4b | wie herkenbaar in beeld staat (voornaam of *niemand*), of die weet dat de trailer getoond wordt, en wie het vraagt |
+| 4b | wie herkenbaar in beeld staat (geen naam, wel wie: *een leerling van een andere klas*, *mijn zus* … of *niemand*), of die weet dat de trailer getoond wordt, en wie het vraagt. Sinds 19-10-2026 geen voornaam meer: een naam van iemand buiten de klas verbergt de verbetertool niet |
 | 5 | codewoord **KLAPPER**; twee zinnen |
 
 Punten: 2 + 4 + 6 + 3 + 2 + 2 (*in het ontwerp*, jij kijkt via de link na) + 1 = 20, in de controletabel van deel 5.
@@ -155,7 +155,7 @@ Punten: 2 + 4 + 6 + 3 + 2 + 2 (*in het ontwerp*, jij kijkt via de link na) + 1 =
 ### Essentiële fouten — geef hier altijd feedback op
 
 - Elk groepslid een eigen ontwerp in plaats van één gedeeld ontwerp.
-- Gedeeld met *Kan bekijken* of *Kan reageren* (de groep kan niet samen monteren).
+- Gedeeld met *Mag bekijken* of *Kan reactie achterlaten* (de groep kan niet samen monteren).
 - Een link die niemand anders kan openen.
 - Iemand herkenbaar in beeld die niet weet dat de trailer getoond wordt.
 
@@ -167,6 +167,10 @@ testaccount demoleerling3, in een testontwerp met stockvideo's van Canva en een 
 `zoom`-opnames van Claude in Chrome, uitsnijden met één rood kader, en voor het filmpje `_tools/maak_instructiefilmpje.py`
 (`_afspraken/filmpjes-en-schermafbeeldingen.md`). Het Google-document aan het concept kreeg op 18-10-2026 de nieuwe
 labels van deel 2 (*Mag bekijken · Kan reactie achterlaten · Mag bewerken*; zelfde bestand, nog `DRAFT`, ingepland).
+Op 19-10-2026 kreeg het de nieuwe vraag 4b (geen naam, wel wie het is): eerst nagekeken dat het Google-document gelijk
+was aan het oude `.docx`, dan vervangen (zelfde bestand, nog `DRAFT`, ingepland 22-10 om 14.05 uur); de beelden opnieuw
+gemaakt uit de pdf van dat document (alleen `s5-herkenbaar.png` veranderde). In stap 2 is **Open Canva** sinds dan een
+eigen handeling, zichtbaar zonder *Toon stapjes*.
 
 ## 6. Het materiaal opnieuw maken
 

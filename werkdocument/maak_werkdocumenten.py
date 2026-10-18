@@ -85,9 +85,10 @@ def montagelogboek():
         ("Midden in een clip loopt iemand door het beeld die er niet hoort.", ""),
         ("Shot 4 staat in de tijdlijn vóór shot 3.", ""),
     ], [9.6, BREEDTE - 9.6], invul=(1,), rijhoogte=1.5)
-    vraag(doc, "b.  Staat er iemand herkenbaar in jullie clips die niet in jullie groep zit? Wie (een voornaam of "
-               "\"niemand\")? Weet die dat de trailer op het slotmoment getoond wordt, en vindt die dat goed? Wie "
-               "van jullie vraagt het?")
+    # 19-10-2026: geen naam, wel wie het is. Een naam van iemand buiten de klas verbergt de verbetertool niet.
+    vraag(doc, "b.  Staat er iemand herkenbaar in jullie clips die niet in jullie groep zit? Wie? Schrijf geen naam, "
+               "wel wie het is (bv. \"een leerling van een andere klas\", \"mijn zus\") of \"niemand\". Weet die dat "
+               "de trailer op het slotmoment getoond wordt, en vindt die dat goed? Wie van jullie vraagt het?")
     antwoordvak(doc, 2.4)
 
     # ---- Deel 5: nalezen. Eerst het codewoord van de zelftest (15-10-2026, Jonas: "Codewoord idee is heel
