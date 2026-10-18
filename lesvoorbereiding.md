@@ -233,6 +233,17 @@ een voorbeeldrij bovenaan (grijs, de demo):
 Geen *Extra* in het werkdocument: de extra (een clip op twee plaatsen splitsen en een stuk weghalen, of de lengte
 van de trailer vergelijken met het storyboard) staat op de lespagina en gebeurt in het ontwerp.
 
+**Verwachte antwoorden** (ook in `README.md` §4; hier staan ze voor de verbetertool, 19-10-2026): deel 1 een titel en een
+voornaam bij elke rol · deel 2 een link naar het ontwerp in Canva (`canva.com/design/…`), de voornamen van de
+groepsgenoten en de leraar (*de leraar*, of de naam van de leraar), een x bij **Mag bewerken** · deel 3 per clip het shotnummer uit het
+storyboard, wat je ziet, een x, en wat er geknipt is (*niets* mag ook) · deel 4a zie § 22 · deel 4b wie herkenbaar in
+beeld staat, zonder naam (*een leerling van een andere klas*, *mijn zus*, of *niemand*), of die weet dat de trailer
+getoond wordt en het goed vindt, en wie van de groep het vraagt · deel 5 twee zinnen over wat de leerling zelf deed.
+
+**Wat niet telt** (voorstel AI, 19-10-2026): bij deel 2 een link naar *Uploads*, naar de startpagina van Canva of naar
+een eigen ontwerp (dan werkte de groep niet in één ontwerp) · bij deel 5 een zin over wat de groep deed zonder wat de
+leerling zelf deed.
+
 ## 15–17. Korte klassikale instructie en demonstratie (Ik doe → Jullie doen)
 
 | Fase | Tijd | Inhoud |
@@ -358,9 +369,31 @@ nakijkt (via de link in deel 2). De criteria staan als `controletabel` onderaan 
 **Verwachte antwoorden deel 4a:** wiebelend begin → **inkorten** (de linkerrand slepen) · iemand loopt midden door het
 beeld → **twee keer splitsen** en het stuk ertussen verwijderen · shot 4 vóór shot 3 → **slepen** in de tijdlijn.
 
+**Hoe de punten verdeeld worden** (voorstel AI, 19-10-2026; Jonas past aan bij het verbeteren):
+
+- **Deel 1** (2): 1 voor de titel · 1 voor een voornaam bij elke rol (in een groep van twee: zoals de grijze regel zegt).
+- **Deel 2** (4): 1 per onderdeel: een link naar een ontwerp in Canva · de groepsgenoten · de leraar · een x bij *Mag
+  bewerken* (een x bij een ander recht, of bij meer dan één = 0). Of de link echt opent, ziet de AI niet: Jonas kijkt
+  het na bij *In het ontwerp*.
+- **Deel 3** (6): een rij is volledig met het shotnummer, wat je ziet, de x en wat geknipt is (*niets* mag). Volledig
+  voor elke clip = 6; per onvolledige rij −1 (niet onder 0). Minder dan drie rijen: voorleggen aan Jonas (misschien had
+  de groep niet meer clips).
+- **Deel 4a** (3): 1 per situatie.
+- **Deel 4b** (2): 1 voor wie (of *niemand*) · 1 voor of die het weet en het goed vindt, en wie het vraagt.
+- **In het ontwerp** (2): de AI ziet het ontwerp in Canva niet. Ze zet dit criterium **altijd** bij *voorleggen*, met
+  een voorstel uit deel 3 (staat er dat een clip ingekort of gesplitst is: 2; niets geknipt: 1); Jonas opent de link
+  en beslist.
+- **Deel 5** (1): twee zinnen over wat de leerling zelf deed.
+
+Geen feiten uit een kader die letterlijk juist moeten zijn; het codewoord (*KLAPPER*) kijkt het script zelf na.
+
 **Essentiële fouten:** elk groepslid een eigen ontwerp in plaats van één gedeeld ontwerp · gedeeld met *Mag bekijken*
 (de groep kan niet samen monteren) · een link die niemand anders kan openen · iemand herkenbaar in beeld die niet
 weet dat de trailer getoond wordt.
+
+### Jonas' beslissingen bij het verbeteren
+
+- (nog geen)
 
 ## 23. Feedback
 
